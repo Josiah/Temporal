@@ -1,0 +1,13 @@
+{
+    "name": "josiah/temporal",
+    "description": "Time and Date related utilities",
+    "authors": [
+        {
+            "name": "Josiah",
+            "email": "josiah@jjs.id.au"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Temporal": "src/"}
+    }
+}
