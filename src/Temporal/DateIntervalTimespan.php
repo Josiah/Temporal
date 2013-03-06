@@ -59,8 +59,8 @@ class DateIntervalTimespan implements TimespanInterface, IntervalInterface
      */
     public function getTo()
     {
-        $to = clone $from;
-        $to->add($interval);
+        $to = clone $this->getFrom();
+        $to->add($this->interval);
 
         return $to;
     }
